@@ -20,8 +20,8 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-		crossorigin="anonymous"></script>
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+	</script>
 	<!-- mobile specific metas
    ================================================== -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -208,32 +208,25 @@
 
 		<div class="row-logo" id=Logo>
 			<div class="column-logo">
-				<img class="revealOnScroll" data-animation="fadeInUp" src="images/logos/final/csi.png" alt="csi"
-				>
+				<img class="revealOnScroll" data-animation="fadeInUp" src="images/logos/final/csi.png" alt="csi">
 			</div>
 			<div class="column-logo" style="transform: scale(0.9)">
-				<img class="revealOnScroll" data-animation="fadeInUp" src="images/logos/final/isa.png" alt="ishrae"
-					>
+				<img class="revealOnScroll" data-animation="fadeInUp" src="images/logos/final/isa.png" alt="ishrae">
 			</div>
 			<div class="column-logo">
-				<img class="revealOnScroll" data-animation="fadeInUp" src="images/logos/final/ishrae.png" alt="ishrae"
-					>
+				<img class="revealOnScroll" data-animation="fadeInUp" src="images/logos/final/ishrae.png" alt="ishrae">
 			</div>
 			<div class="column-logo" style="transform: scale(1.5)">
-				<img class="revealOnScroll" data-animation="fadeInUp" src="images/logos/final/igbc.png" alt="igbc"
-					>
+				<img class="revealOnScroll" data-animation="fadeInUp" src="images/logos/final/igbc.png" alt="igbc">
 			</div>
 			<div class="column-logo">
-				<img class="revealOnScroll" data-animation="fadeInUp" src="images/logos/final/ieee.png" alt="ieee"
-					>
+				<img class="revealOnScroll" data-animation="fadeInUp" src="images/logos/final/ieee.png" alt="ieee">
 			</div>
 			<div class="column-logo">
-				<img class="revealOnScroll" data-animation="fadeInUp" src="images/logos/final/iete.png" alt="iete"
-					>
+				<img class="revealOnScroll" data-animation="fadeInUp" src="images/logos/final/iete.png" alt="iete">
 			</div>
 			<div class="column-logo">
-				<img class="revealOnScroll" data-animation="fadeInUp" src="images/logos/final/vmea.png" alt="vmea"
-					>
+				<img class="revealOnScroll" data-animation="fadeInUp" src="images/logos/final/vmea.png" alt="vmea">
 			</div>
 			<style>
 				.row-logo {
@@ -241,6 +234,7 @@
 					margin-block: 2em;
 
 				}
+
 				/* .row-logo img {
 					width: 100%;
 				} */
@@ -253,7 +247,7 @@
 
 
 	<!--------End of -abt us---------------------->
-	<style>
+	<!-- <style>
 		.sponsor_logos {
 			display: flex;
 			justify-content: space-around;
@@ -290,7 +284,7 @@
 		#sponsors {
 			padding: 3em 0;
 		}
-	</style>
+	</style> 
 	<section id="sponsors">
 
 		<div class="row section-head">
@@ -315,242 +309,213 @@
 			</div>
 		</div>
 	</section>
-
-
-
-
-
+ -->
 	<!-- portfolio
    ================================================== -->
-	<section id="Tracks">
+   <section id="Tracks">
 
-		<div class="row section-head">
+	<div class="row section-head">
 
-			<div class="twelve columns">
-				<div class="row text-center">
-					<h1 class="heading-title" style="font-size: 50px">Tracks</h1>
-				</div>
-				<p style="text-align: center;">The following tracks refers to the categories in which your project
-					belong</p>
-				<p style="text-align: center;">Entries are not restricted to these topics
-					only.</p>
-
+		<div class="twelve columns">
+			<div class="row text-center">
+				<h1 class="heading-title" style="font-size: 50px">Tracks</h1>
 			</div>
+			<p style="text-align: center;">The following tracks refers to the categories in which your project
+				belong</p>
+			<p style="text-align: center;">Entries are not restricted to these topics
+				only.</p>
 
-		</div> <!-- end section-head -->
+		</div>
 
-		<style>
-			* {
-				box-sizing: border-box;
-			}
+	</div> <!-- end section-head -->
 
-			/* Create three equal columns that floats next to each other */
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+
+		/* Create three equal columns that floats next to each other */
+		.column {
+			float: left;
+			width: 33.33%;
+			/* Should be removed. Only for demonstration */
+		}
+
+		/* Clear floats after the columns */
+		.row:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+
+		@media screen and (max-width: 600px) {
 			.column {
-				float: left;
-				width: 33.33%;
-				/* Should be removed. Only for demonstration */
-			}
-
-			/* Clear floats after the columns */
-			.row:after {
-				content: "";
-				display: table;
-				clear: both;
-			}
-
-			@media screen and (max-width: 600px) {
-				.column {
-					width: 100%;
-					/* height: 455px; */
-				}
-			}
-
-			.list-type1 {
-				width: 400px;
-				margin: 0 auto;
-			}
-
-			.list-type1 ol {
-				counter-reset: li;
-				list-style: none;
-				*list-style: decimal;
-				font-size: 15px;
-				font-family: 'Raleway', sans-serif;
-				padding: 0;
-				margin-bottom: 4em;
-			}
-
-			.list-type1 ol ol {
-				margin: 0 0 0 2em;
-			}
-
-			.list-type1 a {
-				position: relative;
-				display: block;
-				padding: .4em .4em .4em 2em;
-				*padding: .4em;
-				margin: .5em 0;
-				background: #30839F;
-				color: #000;
-				text-decoration: none;
-				-moz-border-radius: .3em;
-				-webkit-border-radius: .3em;
-				border-radius: 10em;
-				transition: all .2s ease-in-out;
-			}
-
-			.list-type1 a:hover {
-				background: #79b8f3;
-				text-decoration: none;
-				transform: scale(1.1);
-			}
-
-			details {
-				display: block;
-				width: max(100%, 20em)
-			}
-
-			summary {
-				cursor: pointer;
 				width: 100%;
-				background: #30839F;
+				/* height: 455px; */
 			}
+		}
 
-			.list-type1 a:before {
-				content: counter(0);
-				counter-increment: li;
-				position: absolute;
-				left: -1.3em;
-				top: 50%;
-				margin-top: -1.3em;
-				background: #93C775;
-				height: 2em;
-				width: 2em;
-				line-height: 2em;
-				border: .3em solid #fff;
-				text-align: center;
-				font-weight: bold;
-				-moz-border-radius: 2em;
-				-webkit-border-radius: 2em;
-				border-radius: 2em;
-				color: #FFF;
-			}
-			.list-group-item{
-				background: transparent;
-				color:rgb(255, 255, 255);
-			}
-			.list-group-flush{
-				min-height: 30rem;
-			}
-			.card-img-top{
-				border-radius: 15px;
-			}
-		</style>
+		.list-type1 {
+			width: 400px;
+			margin: 0 auto;
+		}
 
+		.list-type1 ol {
+			counter-reset: li;
+			list-style: none;
+			*list-style: decimal;
+			font-size: 15px;
+			font-family: 'Raleway', sans-serif;
+			padding: 0;
+			margin-bottom: 4em;
+		}
 
-		<div>
-			<div class="row justify-content-center">
-				<div class="col-md-4 mt-4">
-					<div class="card" style="background: transparent;">
-						<img src="./images/portfolio/track1.jpg" class="card-img-top" alt="...">
-						<div class="card-body" style="align-items: center; text-align: center;">
-							<h5 class="card-title">Track Mech</h5>
-						</div>
-						<ul class="list-group list-group-flush">
-							<li class="list-group-item">1. Thermal and Fluid Power Engg.</li>
-							<li class="list-group-item">2. Mechanical System Design and Development</li>
-							<li class="list-group-item">3. Advanced Manufacturing Technique</li>
-							<li class="list-group-item">4. Renewable Energy</li>
-							<li class="list-group-item">5. Optimisation and Simulation AI and ML application to
-								Mechanical systems</li>
-						</ul>
-					</div>
+		.list-type1 ol ol {
+			margin: 0 0 0 2em;
+		}
 
-				</div>
-				<div class="col-md-4 mt-4">
+		.list-type1 a {
+			position: relative;
+			display: block;
+			padding: .4em .4em .4em 2em;
+			*padding: .4em;
+			margin: .5em 0;
+			background: #f58442;
+			color: #000;
+			text-decoration: none;
+			-moz-border-radius: .3em;
+			-webkit-border-radius: .3em;
+			border-radius: 10em;
+			transition: all .2s ease-in-out;
+		}
 
-					<div class="card" style="background: transparent">
-						<img src="./images/portfolio/track2.jpg" class="card-img-top" alt="...">
-						<div class="card-body" style="align-items: center; text-align: center;">
-							<h5 class="card-title">Track EXTC</h5>
-						</div>
-						<ul class="list-group list-group-flush">
-							<li class="list-group-item">1. Microcontroller and Embedded System</li>
-							<li class="list-group-item">2. IoT and Industry 4.0</li>
-							<li class="list-group-item">3. Emerging Wireless Communication Technologies and Sensor
-								Network
-							</li>
-							<li class="list-group-item">4. Signal,Image, Speech & Video Processing</li>
-							<li class="list-group-item">5. VLSI Application</li>
-						</ul>
+		.list-type1 a:hover {
+			background: #79b8f3;
+			text-decoration: none;
+			transform: scale(1.1);
+		}
 
-					</div>
-				</div>
-				<div class="col-md-4 mt-4">
-					<div class="card" style="background: transparent">
-						<img src="./images/portfolio/track3.jpg" class="card-img-top" alt="...">
-						<div class="card-body" style="align-items: center; text-align: center;">
-							<h5 class="card-title">Track Instru</h5>
-						</div>
-						<ul class="list-group list-group-flush">
-							<li class="list-group-item">1. Sensor Design/Process Automation</li>
-							<li class="list-group-item">2. Automation for Agriculture Society</li>
-							<li class="list-group-item">3. Instrumentation for medical field</li>
-							<li class="list-group-item">4. IOT for Automation</li>
-							<!-- <li class="list-group-item">Instrumentation for Agriculture and Society</li> -->
-						</ul>
+		details {
+			display: block;
+			width: max(100%, 20em)
+		}
 
-					</div>
-				</div>
-				<div class="col-md-4  mt-4">
-					<div class="card" style="background: transparent">
-						<img src="./images/portfolio/track4.jpg" class="card-img-top" alt="...">
-						<div class="card-body" style="align-items: center; text-align: center;">
-							<h5 class="card-title">Track Comp/IT</h5>
-						</div>
-						<ul class="list-group list-group-flush">
-							<li class="list-group-item">1. Cloud Computing and Big Data</li>
-							<li class="list-group-item">2. Artifical Intelligence and Machine Learning</li>
-							<li class="list-group-item">3. Gaming</li>
-							<li class="list-group-item">4. Internet Of Things(IOT)</li>
-							<li class="list-group-item">5. Web Security and Networking</li>
-							<li class="list-group-item">6. Robotics</li>
-						</ul>
+		summary {
+			cursor: pointer;
+			width: 100%;
+			background: #f58442;
+		}
 
-					</div>
-				</div>
-				<div class="col-md-4  mt-4">
-					<div class="card" style="background: transparent">
-						<img src="./images/portfolio/track5.jpg" class="card-img-top" alt="...">
-						<div class="card-body" style="align-items: center; text-align: center;">
-							<h5 class="card-title">Track Civil</h5>
-						</div>
-						<ul class="list-group list-group-flush">
-							<li class="list-group-item">1. Concrete Technology and Structural Engg.</li>
-							<!-- <li class="list-group-item"></li> -->
-							<li class="list-group-item">2. Construction Management and Urban Planning</li>
-							<li class="list-group-item">3. Transportation and Geotechnical Engg.</li>
-							<!-- <li class="list-group-item"> Engg.</li> -->
-							<li class="list-group-item">4. Environmental and Water Resource Engg.</li>
-							<!-- <li class="list-group-item"> Engg.</li> -->
-						</ul>
+		.list-type1 a:before {
+			content: counter(0);
+			counter-increment: li;
+			position: absolute;
+			left: -1.3em;
+			top: 50%;
+			margin-top: -1.3em;
+			background: #93C775;
+			height: 2em;
+			width: 2em;
+			line-height: 2em;
+			border: .3em solid #fff;
+			text-align: center;
+			font-weight: bold;
+			-moz-border-radius: 2em;
+			-webkit-border-radius: 2em;
+			border-radius: 2em;
+			color: #FFF;
+		}
 
-					</div>
+		.list-group-item {
+			background: transparent;
+			color: rgb(255, 255, 255);
+		}
+
+		.list-group-flush {
+			min-height: 30rem;
+		}
+
+		.card-img-top {
+			margin: auto;
+			justify-content: space-evenly;
+			width: 50%;
+			border-radius: 30px;
+			box-shadow: 10px 10px 20px 20px #429bf5;
+		}
+	</style>
+	<div>
+		<div class="row justify-content-center">
+			<div class="col-md-4 mt-4">
+				<div class="card" style="background: transparent;">
+					<img src="images/portfolio/track1.png" class="card-img-top" alt="..."> <br>
+					<ul class="list-group list-group-flush">
+						<li class="list-group-item">1. Thermal and Fluid Power Engg.</li>
+						<li class="list-group-item">2. Mechanical System Design and Development</li>
+						<li class="list-group-item">3. Industry 4.0</li>
+						<li class="list-group-item">4. Renewable Energy</li>
+						<li class="list-group-item">5. Optimisation and Simulation
+						</li>
+						<li class="list-group-item">6. AI and ML application to
+							Mechanical systems</li>
+					</ul>
 				</div>
 			</div>
-
-
-
-
-
-
-
+			<div class="col-md-4 mt-4">
+				<div class="card" style="background: transparent">
+					<img src="images/portfolio/track2.png" class="card-img-top" alt="..."> <br>
+					<ul class="list-group list-group-flush">
+						<li class="list-group-item">1. Microcontroller and Embedded Systems</li>
+						<li class="list-group-item">2. IoT and Industry 4.0</li>
+						<li class="list-group-item">3. Signal,Image, Speech & Video Processing</li>
+						<li class="list-group-item">4. Emerging Wireless Communication Technologies and Sensor
+							Networks
+						</li>
+						<li class="list-group-item">5. VLSI Application</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-4 mt-4">
+				<div class="card" style="background: transparent">
+					<img src="images/portfolio/track3.png" class="card-img-top" alt="..."> <br>
+					<!-- <div class="card-body" style="align-items: center; text-align: center;">
+						<h5 class="card-title">Track 3</h5>
+					</div> -->
+					<ul class="list-group list-group-flush">
+						<li class="list-group-item">1. Automation Using PLC, SCADA and DCS</li>
+						<li class="list-group-item">2. Robotics</li>
+						<li class="list-group-item">3. Biomedical Instrumentation</li>
+						<!-- <li class="list-group-item">Instrumentation for Agriculture and Society</li> -->
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-4  mt-4">
+				<div class="card" style="background: transparent">
+					<img src="images/portfolio/track4.png" class="card-img-top" alt="..."> <br>
+					<ul class="list-group list-group-flush">
+						<li class="list-group-item">1. Cloud Computing and Big Data</li>
+						<li class="list-group-item">2. Artifical Intelligence and Machine Learning</li>
+						<li class="list-group-item">3. Gaming</li>
+						<li class="list-group-item">4. Web Of Things</li>
+						<li class="list-group-item">5. Web Security and Networking</li>
+						<li class="list-group-item">6. Robotics</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-4  mt-4">
+				<div class="card" style="background: transparent">
+					<img src="images/portfolio/track5.png" class="card-img-top" alt="..."> <br>
+					<ul class="list-group list-group-flush">
+						<li class="list-group-item">1. Concrete Technology and Structural Engg.</li>
+						<li class="list-group-item">2. Construction Management and Urban Planning</li>
+						<li class="list-group-item">3. Transportation Engg. and Geotechnical Engg.</li>
+						<li class="list-group-item">4. Environmental and Water Resources Engg.</li>
+					</ul>
+				</div>
+			</div>
 		</div>
-		</div>
-
-
-	</section>
-
+	</div>
+	</div>
+</section>
 
 
 
@@ -578,7 +543,7 @@
 
 			<div class="text-center">
 
-				<h1 class="heading-title mt-5" style="font-size: 50px ; margin-top:1rem">Rules</h1> 
+				<h1 class="heading-title mt-5" style="font-size: 50px ; margin-top:1rem">Rules</h1>
 
 				<p class="text-center">There are some rules you need to follow..!!!
 				</p>
@@ -641,7 +606,8 @@
 
 					<div class="service-content" style="text-align: center;">
 						<p>
-							Registration Form <a href="https://forms.gle/JBbdTz5omdNRwLwt7" target="_blank" class="link">here</a>
+							Registration Form <a href="https://forms.gle/JBbdTz5omdNRwLwt7" target="_blank"
+								class="link">here</a>
 							<br>
 							<!-- Scan this code! <br> <img src="images/Form QRcode.jpeg" alt="" height="50px" width="50px"> -->
 
@@ -666,58 +632,66 @@
 
 					<div class="service-content">
 						<p>
-						<ol>
-							<li>An Abstract of maximum 250 words should be submitted before, 11th April, 2023to the
-								following email address : vnps2022@vcet.edu.in
-							</li>
-							<li>
-								A sample abstact would look like <a href='sample_abstract.pdf' target="_blank"
-									class="link">this</a>
-							</li>
-							<li>
-								The subject of the email should include; <b style="color:#30839F;"> college name, track
-									number and whether the project is major/minor level project.</b>
-							</li>
-							<li>
+							<ol>
+								<li>An Abstract of maximum 250 words should be submitted before, 11th April, 2023to the
+									following email address : vnps2022@vcet.edu.in
+								</li>
+								<li>
+									A sample abstact would look like <a href='sample_abstract.pdf' target="_blank"
+										class="link">this</a>
+								</li>
+								<li>
+									The subject of the email should include; <b style="color:#30839F;"> college name,
+										track
+										number and whether the project is major/minor level project.</b>
+								</li>
+								<li>
 
-								These details should be also present in the email along with project title and abstract.
-							</li>
-							<li>
+									These details should be also present in the email along with project title and
+									abstract.
+								</li>
+								<li>
 
-								Project will be shortlisted on the basis of the abstract and selected participants will
-								be notified through the emails along with further instructions.
-							</li>
-							<li>
+									Project will be shortlisted on the basis of the abstract and selected participants
+									will
+									be notified through the emails along with further instructions.
+								</li>
+								<li>
 
-								The participants are expected to complete the registration process for the event through
-								the registration link after getting a notification mail from VNPS committee.
-								Registration link is available in the brochure as well as rule book.
-							</li>
-							<li>
+									The participants are expected to complete the registration process for the event
+									through
+									the registration link after getting a notification mail from VNPS committee.
+									Registration link is available in the brochure as well as rule book.
+								</li>
+								<li>
 
-								Registration fee for Internal(VCET Students) Major Project (BE project) is ₹ 200/- and
-								for Minor Project (SE,TE project) is ₹ 150/- and for External(NON-VCET Students) Major
-								Project (BE project) is ₹ 200/- and for Minor Project (SE,TE project) is ₹ 200/- which
-								has to be paid through Google Pay or Paytm on the given phone numbers or upi id.
-							</li>
-							<li>
+									Registration fee for Internal(VCET Students) Major Project (BE project) is ₹ 200/-
+									and
+									for Minor Project (SE,TE project) is ₹ 150/- and for External(NON-VCET Students)
+									Major
+									Project (BE project) is ₹ 200/- and for Minor Project (SE,TE project) is ₹ 200/-
+									which
+									has to be paid through Google Pay or Paytm on the given phone numbers or upi id.
+								</li>
+								<li>
 
-								As soon as you recieve the confirmation mail, do the payment and save the transaction
-								ID.
-							</li>
-							<li>
+									As soon as you recieve the confirmation mail, do the payment and save the
+									transaction
+									ID.
+								</li>
+								<li>
 
-								Complete the registration procedure by updating project details and payment details.
-							</li>
-							<br>
+									Complete the registration procedure by updating project details and payment details.
+								</li>
+								<br>
 
-							<li>
-								For more info kindly go through the rule book -
-								<a class="link" target="_blank" href='Rulebook VNPS 2022.pdf' >Rulebook</a><br>
-							</li>
+								<li>
+									For more info kindly go through the rule book -
+									<a class="link" target="_blank" href='Rulebook VNPS 2022.pdf'>Rulebook</a><br>
+								</li>
 
 
-						</ol>
+							</ol>
 						</p>
 					</div>
 
@@ -738,43 +712,45 @@
 					<div class="service-content">
 						<p>
 
-						<ol>
-							<br>
-							<li>
-								<p>
-									Payment should be done by 06<sup>th</sup> April 2023 itself.
-
-								</p>
-							</li>
-							<li>
-								Somesh Chandrakant Gurav <br>
-								<a href="tel:+91-8850444464">Ph.no: +91 8850444464 </a><br>
-								UPI ID: 8850444464@upi
-
-								<p>
-									QR code:
-								</p>
-								<img class="QR" src="images/QR code1.jpeg" alt="" srcset="" height="80px" width="80px">
+							<ol>
 								<br>
-								<br>
-							<li>
-								Shalom Wilson Lopes <br>
-								<a href="tel:+91-9975554460">Ph.no: +91 9975554460 </a><br>
-								UPI ID : 9975554460@upi
-							</li>
-							<div class="qr2">
-								<p>
-									QR code:
-								</p>
-								<img class="QR" src="images/QR code2.jpeg" alt="" srcset="" height="80px" width="80px">
-							</div>
-							<!-- <style> -->
+								<li>
+									<p>
+										Payment should be done by 06<sup>th</sup> April 2023 itself.
+
+									</p>
+								</li>
+								<li>
+									Somesh Chandrakant Gurav <br>
+									<a href="tel:+91-8850444464">Ph.no: +91 8850444464 </a><br>
+									UPI ID: 8850444464@upi
+
+									<p>
+										QR code:
+									</p>
+									<img class="QR" src="images/QR code1.jpeg" alt="" srcset="" height="80px"
+										width="80px">
+									<br>
+									<br>
+								<li>
+									Shalom Wilson Lopes <br>
+									<a href="tel:+91-9975554460">Ph.no: +91 9975554460 </a><br>
+									UPI ID : 9975554460@upi
+								</li>
+								<div class="qr2">
+									<p>
+										QR code:
+									</p>
+									<img class="QR" src="images/QR code2.jpeg" alt="" srcset="" height="80px"
+										width="80px">
+								</div>
+								<!-- <style> -->
 								<!-- .qr2 {
 									margin-left: 20px;
 								}
 							</style> -->
 
-						</ol>
+							</ol>
 						</p>
 					</div>
 
@@ -785,24 +761,24 @@
 
 					<div class="service-content">
 						<p style="text-align: center;">
-						<p><b>Track Mech </b><br> <a href="tel:+91-996919962"> Aditya Hendre: +91 996919962</a><br><a
-								href="tel:+91-9112355745"> Chintan Patel: +91 9112355745</a>
-						</p><br>
-						<p><b>Track EXTC </b><br> <a href="tel:+91-8080080780	">Shikhar Mehta: +91 8080080780
+							<p><b>Track Mech </b><br> <a href="tel:+91-996919962"> Aditya Hendre: +91
+									996919962</a><br><a href="tel:+91-9112355745"> Chintan Patel: +91 9112355745</a>
+							</p><br>
+							<p><b>Track EXTC </b><br> <a href="tel:+91-8080080780	">Shikhar Mehta: +91 8080080780
 								</a><br><a href="tel:+91-7875856630">Nikhil Kargatia: +91 7875856630</a>
-						</p><br>
-						<p><b>Track Instru </b><br> <a href="tel:+91-8928008848">Varun Tatkare : +91
-							8928008848</a><br><a href="tel:+91-9594370381">Siddhant Lokare: +91 9594370381</a>
-						</p><br>
-						<p><b>Track COMP/IT </b><br>
-							<a href="tel:+91-8080170871">Nidhi Karulkar: +91 8080170871</a><br>
-							<a href="tel:+91- 7798963544">Harsh Sawant: +91 7798963544</a><br>
-						</p><br>
-						<p><b>Track Civil </b><br> <a href="tel:+91-80974 70510">Deeksha Shetty: +91 80974 70510</a><br><a
-								href="tel:+91-88052 73185">Gaurang Thakur : +91 88052 73185
-							</a>
-						</p>
-						<!-- <p><b>Prasad Sawant (IEEE President) </b><br> <a href="tel:+91-9172976809">+91 9172976809</a>
+							</p><br>
+							<p><b>Track Instru </b><br> <a href="tel:+91-8928008848">Varun Tatkare : +91
+									8928008848</a><br><a href="tel:+91-9594370381">Siddhant Lokare: +91 9594370381</a>
+							</p><br>
+							<p><b>Track COMP/IT </b><br>
+								<a href="tel:+91-8080170871">Nidhi Karulkar: +91 8080170871</a><br>
+								<a href="tel:+91- 7798963544">Harsh Sawant: +91 7798963544</a><br>
+							</p><br>
+							<p><b>Track Civil </b><br> <a href="tel:+91-80974 70510">Deeksha Shetty: +91 80974
+									70510</a><br><a href="tel:+91-88052 73185">Gaurang Thakur : +91 88052 73185
+								</a>
+							</p>
+							<!-- <p><b>Prasad Sawant (IEEE President) </b><br> <a href="tel:+91-9172976809">+91 9172976809</a>
 							</p>
 							<p><b>Tarun Nair (ISA President) </b><br> <a href="tel:+91-9284152687">+91 9284152687</a>
 							</p> -->
@@ -1114,10 +1090,10 @@
 
 			<div class="six columns tab-whole left">
 				<div class="google-maps">
-						<iframe
-							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.659991305768!2d72.82654491443476!3d19.383869586912066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7aec0a4b41bef%3A0xbd1a4ca919d6a613!2sVidyavardhini's+College+of+Engineering+and+Technology!5e0!3m2!1sen!2sin!4v1521540877490"
-							width="300" height="300" frameborder="0" style="border:6px outset silver"
-							allowfullscreen></iframe>
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.659991305768!2d72.82654491443476!3d19.383869586912066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7aec0a4b41bef%3A0xbd1a4ca919d6a613!2sVidyavardhini's+College+of+Engineering+and+Technology!5e0!3m2!1sen!2sin!4v1521540877490"
+						width="300" height="300" frameborder="0" style="border:6px outset silver"
+						allowfullscreen></iframe>
 				</div>
 			</div>
 
@@ -1137,9 +1113,9 @@
 				</p>
 				<div class="social-media-links" style="font-size: 2.6rem; color: #3b73c7;">
 					<a href="https://www.facebook.com/profile.php?id=100080250005730" target="_blank"><i
-						class="fa fa-facebook-square"></i></a>
-			<a href="https://instagram.com/vnps2022?utm_medium=copy_link" target="_blank"><i
-						class="fa fa-instagram"></i></a>
+							class="fa fa-facebook-square"></i></a>
+					<a href="https://instagram.com/vnps2022?utm_medium=copy_link" target="_blank"><i
+							class="fa fa-instagram"></i></a>
 				</div>
 				</br>
 			</div>
@@ -1154,7 +1130,7 @@
 	<footer>
 
 
-				<!-- <ul class="social-links">
+		<!-- <ul class="social-links">
 					<li><a href="https://www.facebook.com/vnps2021/" target="_blank"><i
 								class="fa fa-facebook-square"></i></a></li>
 					<li><a href="https://instagram.com/vnps2021?igshid=imjlqqf0wsmi" target="_blank"><i
@@ -1163,20 +1139,21 @@
 				</ul> -->
 
 
-				<div class="info">
+		<div class="info">
 
-					<div class="footer-logo"></div>
+			<div class="footer-logo"></div>
 
-					<p>&copy;Copyright CSI-VCET 2021.</br> All Rights Reserved.
-					</p>
+			<p>&copy;Copyright CSI-VCET 2021.</br> All Rights Reserved.
+			</p>
 
-				</div>
+		</div>
 
-			</div>
+		</div>
 
-			<div style="display: flex; justify-content: center;">
-				<a class="button" style="width: fit-content;" title="Back to Top" href="#home">Back to Top <i class="fa fa-angle-up"></i></a>
-			</div>
+		<div style="display: flex; justify-content: center;">
+			<a class="button" style="width: fit-content;" title="Back to Top" href="#home">Back to Top <i
+					class="fa fa-angle-up"></i></a>
+		</div>
 
 
 	</footer> <!-- end footer -->
@@ -1204,4 +1181,3 @@
 <!-- Mirrored from vcet.edu.in/VNPS19/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 10 Feb 2021 03:51:28 GMT -->
 
 </html>
-
