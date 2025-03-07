@@ -902,3 +902,9 @@ different heights to align properly.
 	text-align: center;
 }
 
+.image-center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
